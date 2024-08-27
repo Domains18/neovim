@@ -46,7 +46,6 @@ Other mappings can be found in specific plugin configuration files in `lua/plugi
 
 <br>
 
-# Troubleshooting
-If you have problems while installing or using this setup, please report an issue, 
-
-<br>
+--- 
+happy coding! :smile:
+```
