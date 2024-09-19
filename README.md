@@ -1,4 +1,3 @@
-# Neovim configuration for Java, Python, Rust and Lua
 
 This is my personal LUA based configuration for Neovim that I use on a daily basis as Java, Python and RUST IDE. This setup is the product of continuous enhancements based in what I have found in configurations shared by other users. It is an ongoing project that may evolve with time as I come accross with new plugins, refine mappings or refactor configuration files.<br>Feel free to fork this repository and adapt it to your own needs.
 
@@ -20,32 +19,3 @@ This is my personal LUA based configuration for Neovim that I use on a daily bas
 # UI theme
 Several UI themes are preconfigured in this setup. Active theme is set by editing file `lua/settings.lua`.
 Default active theme is [Tokyonight](https://github.com/folke/tokyonight.nvim).
-
-<br>
-
-# Custom mappings
-Most of mappings are defined in file `lua/mappings.lua`. WhichKey plugin is used in order to provide a description for each one of them.
-Other mappings can be found in specific plugin configuration files in `lua/plugins/configs` directory. Also, language specific mappings are defined in LSP config files, these mappings are only available when working with specific programming languages (when LSP are attached)
-
-<br>
-
-# Featured plugins
-* [Telescope](https://github.com/nvim-telescope/telescope.nvim)
-    > Highly extendable fuzzy finder over lists
-* [Neotree](https://github.com/nvim-neo-tree/neo-tree.nvim)
-    > Tree file explorer 
-* [Aerial](https://github.com/stevearc/aerial.nvim)
-    > Code outline window for skimming and quick navigation
-* [WhichKey](https://github.com/folke/which-key.nvim)
-    > Displays a popup with possible key bindings of the command you started typing
-* [Nvim-jdtls](https://github.com/mfussenegger/nvim-jdtls)
-    > Extensions for the built-in LSP support in Neovim for eclipse.jdt.ls
-* [Nvim-dap](https://github.com/mfussenegger/nvim-dap)
-    > Debug Adapter Protocol client implementation for Neovim
-* Others...
-
-<br>
-
---- 
-happy coding! :smile:
-```
